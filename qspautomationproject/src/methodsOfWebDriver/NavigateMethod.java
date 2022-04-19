@@ -14,6 +14,7 @@ public class NavigateMethod {
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.google.com");
 		
+		
 		driver.switchTo().activeElement().sendKeys("java",Keys.ENTER);
 		
 		Navigation nav = driver.navigate();
