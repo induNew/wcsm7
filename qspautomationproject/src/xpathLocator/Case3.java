@@ -11,9 +11,9 @@ public class Case3 {
 		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://opensource-demo.orangehrmlive.com/");
+		driver.get("https://www.twitter.com/");
 		Thread.sleep(4000);
-		driver.findElement(By.xpath("//span[contains(text(),'phone')]")).click();
+		driver.findElement(By.xpath("//span[text()='Sign up with phone or email']")).click();
 		
 	}
 
