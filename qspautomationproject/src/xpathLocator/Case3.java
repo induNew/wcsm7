@@ -15,6 +15,8 @@ public class Case3 {
 		Thread.sleep(4000);
 		driver.findElement(By.xpath("//span[text()='Sign up with phone or email']")).click();
 		
+		
+		
 	}
 
 }
