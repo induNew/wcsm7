@@ -20,6 +20,8 @@ public class GetTagNameMethod {
 		WebElement news = driver.findElement(By.xpath("//h2[.='News']"));
 		String tagName = news.getTagName();
 		System.out.println(tagName);//h2
+		
+		
 
 	}
 
